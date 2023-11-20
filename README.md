@@ -3,6 +3,8 @@
 ![Alofoke Group](https://i.ibb.co/TBZc470/Screenshot-2023-11-20-at-7-50-44-AM.png)
 ![Alofoke Group](https://i.ibb.co/VLdnPx4/Screenshot-2023-11-20-at-7-53-55-AM.png)
 
+DEMO: [https://alofoke-group.vercel.app](https://alofoke-group.vercel.app)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
