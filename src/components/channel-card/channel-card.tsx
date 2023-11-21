@@ -29,7 +29,7 @@ export function ChannelCard(props: Props) {
   const ChannelCardContent = () => {
     return (
       <>
-        <div className="flex items-center gap-3 mb-2">
+        <div className="flex flex-col lg:flex-row items-center gap-3 mb-2">
           <Image
             src={imageUrl}
             alt={title}
@@ -40,7 +40,7 @@ export function ChannelCard(props: Props) {
           <h1 className="text-2xl font-bold">{title}</h1>
         </div>
         <SanitizedHtml html={desc} />
-        <div className="flex items-center gap-6 mt-4">
+        <div className="flex items-center gap-6 mt-4 flex-wrap">
           <div className="flex items-center gap-2">
             <EyeIcon width={20} className="text-red-600" />
             <span>{formatNumber(Number(totalViews))}</span>

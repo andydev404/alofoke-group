@@ -27,7 +27,7 @@ export default async function ChannelPage({ params: { id } }: Props) {
     .items;
 
   return (
-    <div className="pl-12 pb-12">
+    <div className="lg:pl-12 pb-12">
       <ChannelCard
         key={channel.id}
         id={channel.id}

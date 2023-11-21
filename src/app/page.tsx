@@ -13,7 +13,7 @@ export default async function Home() {
       <h1 className="text-center text-5xl font-bold mt-4 mb-10">
         Alofoke <span className="font-thin">Group</span>
       </h1>
-      <section className="px-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+      <section className="lg:px-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         {channels.map((channel) => (
           <ChannelCard
             key={channel.id}
