@@ -49,6 +49,16 @@ export default async function ChannelPage({ params: { id } }: Props) {
           />
         ))}
       </section>
+      <p className="text-sm text-white mt-8 text-center">
+        Creado por{" "}
+        <a
+          href="https://twitter.com/andydev404"
+          className="text-red-600"
+          target="_blank"
+        >
+          Andy Santana
+        </a>
+      </p>
     </div>
   );
 }
